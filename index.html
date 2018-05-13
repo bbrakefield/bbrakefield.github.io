@@ -1,29 +1,44 @@
 <html>
     <head>
         <title>Brannon Brakefield's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
-    
+
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./gallery.html">Gallery</a></li>
-                    <li><a href="./contact.html">Contact</a></li> 
-                </ul>
-            </nav>
-        </header>
+        <div class="main-wrapper">
+            <header class="header">
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item"><a href="./index.html">Home</a></li>
+                        <li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a href="./contact.html">Contact</a></li> 
+                    </ul>
+                </nav>
+            </header>
 
-        <section>
-            <img src="./images/beard_boy.jpg"/>
-            <h1>Brannon Brakefield</h1>
-            <h2>Software Engineer</h2>
-        </section>
-
-        <footer>
-            <h3>About Me</h3>
+            <div class="flex column">
+                <section>
+                    <div class="flex column">
+                        <div class="img-wrapper">
+                            <img class="main-img circle" src="./images/beard_boy.jpg"/>
+                        </div>
+                    </div>
+                    <div class=" flex column">
+                        <h1 class="main title">Brannon Brakefield</h1>
+                        <h2 class="sub title">Software Engineer</h2>
+                    </div>
+                </section>
+            </div> 
+        </div>
+          
+        <footer class="footer">
+            <div class="flex">
+                <div class="line"></div>   
+                <h3 class="foot-sub title">About Me</h3>
+                <div class="line"></div>
+            </div>
             <p>"Little by little, one travels far." - J.R.R. Tolkien</p>
-            <a href="./resume.pdf" download="Brannon_Brakefield_Resume">Download My Resume</a>
+            <a href="./resume.pdf" download="Brannon_Brakefield_Resume" class="button">Download My Resume</a>
         </footer>
     </body>
 </html>
