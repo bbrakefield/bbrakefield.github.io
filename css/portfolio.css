@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 a {
-    color: #019cdb;
+    color: #519872;
     text-decoration: none;
 }
 
@@ -13,7 +14,7 @@ a:hover {
 }
 
 .header {
-    border-top: solid 8px #019cdb; 
+    border-top: solid 8px #8499B1; 
     margin-bottom: 40px; /* new addition */    
 }
 
@@ -29,7 +30,7 @@ a:hover {
 }
 
 .title {
-    color: #019cdb;
+    color: #2D4268;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -47,8 +48,8 @@ a:hover {
 }
 
 .button {
-    border: 2px solid #019cdb;
-    color: #019CDB;
+    border: 2px solid #519872;
+    color: #519872;
     display: inline-block; /* To wrap the border just around the content */
     font-size: 18px;
     margin-top: 8px;
@@ -56,7 +57,7 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #019CDB;
+    background-color: #519872;
     color: #dfdfdf;
     cursor: pointer;
 }
@@ -95,9 +96,21 @@ a:hover {
 }
 
 .img-wrapper {
-    width: 60%;
+    width: 15%;
 }
 
 .main-wrapper {
     min-height: calc(100vh - 126px);
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+p {
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
