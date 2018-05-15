@@ -56,15 +56,17 @@ a:hover {
 .button {
     border: 2px solid #004346;
     color: #004346;
+    background-color: #DAE0F2;
     display: inline-block; /* To wrap the border just around the content */
     font-size: 18px;
     margin-top: 8px;
-    padding: 10px 28px;
+    padding: 10px 24px;
+    width: 20%;
 }
 
 .button:hover {
     background-color: #519872;
-    color: #F9CFF2;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -87,7 +89,7 @@ a:hover {
 
 .main-img {
     margin-top: -20px;
-    border: 4px solid #004346
+    border: 4px solid #519872
 }
 
 .footer {
@@ -133,12 +135,20 @@ p {
     -webkit-margin-end: 0px;
 }
 
+.full {
+    height: 100%;
+    z-index: 0;
+    padding-top: 5px;
+}
+
 dl {
     display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+    height: 100%;
+    z-index: 0;
 }
 
 dd {
