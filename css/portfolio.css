@@ -2,19 +2,24 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: #8499B1;
+}
+
+html {
+    display: block;
 }
 
 a {
-    color: #519872;
+    color: #2D4268;
     text-decoration: none;
 }
 
 a:hover {
-    color: #48b2e8;
+    color: #519872;
 }
 
 .header {
-    border-top: solid 8px #8499B1; 
+    border-top: solid 8px #2D4268; 
     margin-bottom: 40px; /* new addition */    
 }
 
@@ -48,8 +53,8 @@ a:hover {
 }
 
 .button {
-    border: 2px solid #519872;
-    color: #519872;
+    border: 2px solid #2D4268;
+    color: #2D4268;
     display: inline-block; /* To wrap the border just around the content */
     font-size: 18px;
     margin-top: 8px;
@@ -63,7 +68,7 @@ a:hover {
 }
 
 .circle {
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .flex {
@@ -80,6 +85,7 @@ a:hover {
 
 .main-img {
     margin-top: -60px;
+    border: 4px solid #519872
 }
 
 .footer {
@@ -113,4 +119,25 @@ a:hover {
 p {
     margin-top: 0em;
     margin-bottom: 1em;
-  }
+}
+
+.plist {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
