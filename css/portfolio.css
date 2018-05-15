@@ -95,9 +95,9 @@ a:hover {
 .footer {
     text-align: center;
     width: 100%;
-    margin-bottom: 1%;    
     background-color: #DAE0F2;
     border-top: solid 8px #2D4268;
+    margin-bottom: 0px;
 }
 
 .line {
