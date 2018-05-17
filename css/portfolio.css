@@ -3,5 +3,13 @@
 }
 
 .jumbotron {
-    background: url(pink_rice.png) repeat 0 0;
+    background: url("crossword.png") repeat 0 0;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+p, a{
+    font-family: 'Oxygen', sans-serif;    
 }
