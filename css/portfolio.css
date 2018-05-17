@@ -1,3 +1,7 @@
 #first-p {
     padding-top: 8px;
 }
+
+.jumbotron {
+    background: url(pink_rice.png) repeat 0 0;
+}
