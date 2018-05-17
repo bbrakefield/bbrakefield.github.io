@@ -1,31 +1,72 @@
-<html>
-    <head>
-        <title>Contact Me</title>
-        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brannon Brakefield Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-    <body>
-        <div>
-            <header class="header">
-                <nav class="nav">
-                    <ul>
-                        <li class="nav-item"><a href="./index.html">Home</a></li>
-                        <li class="nav-item"><a href="./gallery.html">Projects</a></li>
-                        <li class="nav-item"><a href="./contact.html">Contact</a></li> 
-                    </ul>
-                </nav>
-            </header>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>Brannon Brakefield</h1>
+        <h2>Software Engineer</h2>
+    </div>
 
-            <section>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> 
+                <a class="navbar-brand" href="#">Brannon Brakefield Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./gallery.html">Projects</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div> 
+        </div> 
+    </nav>
+
+    <div class="container">
+        <div = "row">
+            <div class="col-sm-3">
+                <h2>About Me</h2>
+                <img src="./images/beard_boy.jpg"/>
+                <p id="first-p">I am a software developer from Nashville, TN and a recent Computer Science graduate from the Univeristy of Alabama in Huntsville.</p>
+                <p>Previously, I worked as a Software Engineering Intern at Emerson in Knoxville, TN. As a Backend Developer, my primary responsibility was contributing to the data layer of a web application that interfaced with a hierarchy of complex data structures.</p>
+                <p>One of my greatest passions is learning. Regardless of its pertinence to programming and software design, I believe one should strive to learn something new everyday. When I am not writing code, I enjoy listening to music and discussing music with my friends.</p>
+                <p>I am currently seeking full-time software engineering roles in the Nashville, TN area.</p>
+                <h3>Some Links</h3>
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="./resume.pdf" download="Brannon_Brakefield_Resume">Download My Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/brannon-brakefield">LinkedIn</a></li>
+                    <li><a href="https://github.com/bbrakefield/">GitHub</a></li>
+                    <li><a href="https://gitlab.com/users/bbrakefield/projects">GitLab</a></li>                     
+                </ul>
+                <hr class="hidden-sm hidden-md hidden-lg">                
+            </div>
+            <div class="col-sm-9">
+                <h2>Contact Me</h2>
+                <h5></h5>
+                <p>email: brannonbrakefield@gmail.com</p>
+                <p>mobile: 205-532-9522</p>  
+                <a href="./resume.pdf" download="Brannon_Brakefield_Resume">Download My Resume</a>
                 
-                <div class="flex column full">
-                        <p>email: brannonbrakefield@gmail.com</p>
-                        <p>mobile: 205-532-9522</p>  
-                        <a href="https://www.linkedin.com/in/brannon-brakefield" class="button circle" style="text-align: center;">LinkedIn</a>
-                        <a href="https://github.com/bbrakefield/" class="button circle " style="text-align: center;">GitHub</a>
-                        <a href="https://gitlab.com/users/bbrakefield/projects" class="button circle" style="text-align: center;">GitLab</a>    
-                </div>  
-            </section>        
+            </div>
         </div>
-    </body>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+            <a href="./resume.pdf" download="Brannon_Brakefield_Resume">Download My Resume</a>
+    </div>
+</body>
 </html>
