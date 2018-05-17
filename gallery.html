@@ -1,45 +1,97 @@
-<html>
-        <head>
-            <title>Gallery</title>
-            <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
-        </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Brannon Brakefield Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
     
-        <body>
-            <div class="main-wrapper column">
-                <header class="header">
-                    <nav class="nav">
-                        <ul>
-                            <li class="nav-item"><a href="./index.html">Home</a></li>
-                            <li class="nav-item"><a href="./gallery.html">Projects</a></li>
-                            <li class="nav-item"><a href="./contact.html">Contact</a></li> 
-                        </ul>
-                    </nav>
-                </header>
+    <body>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+                <h1>Brannon Brakefield</h1>
+                <h3>Software Engineer</h3>
+        </div>
+        
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                    <a class="navbar-brand" href="#">Brannon Brakefield Portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="active"><a href="./gallery.html">Projects</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div> 
+            </div> 
+        </nav>
+
+        <div class="container">
+            <div = "row">
+                <div class="col-sm-3">
+                    <h2>About Me</h2>
+                    <img src="./images/beard_boy.jpg"/>
+                    <div class="text-left">
+                        <p id="first-p">I am a software developer from Nashville, TN and a recent Computer Science graduate from the Univeristy of Alabama in Huntsville.</p>
+                        <p>Previously, I worked as a Software Engineering Intern at Emerson in Knoxville, TN. As a Backend Developer, my primary responsibility was contributing to the data layer of a web application that interfaced with a hierarchy of complex data structures.</p>
+                        <p>One of my greatest passions is learning. Regardless of its pertinence to programming and software design, I believe one should strive to learn something new everyday. When I am not writing code, I enjoy listening to music and discussing music with my friends.</p>
+                        <p>I am currently seeking full-time software engineering roles in the Nashville, TN area.</p>
+                    </div>
+                    <h3>Some Links</h3>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="./resume.pdf" download="Brannon_Brakefield_Resume">Download My Resume</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">GitLab</a></li>                    
+                    </ul>
+                    <hr class="hidden-sm hidden-md hidden-lg">                
+                </div>
+                <h2>Projects</h2>
+                <p>Some projects that I am proud of that I'd like to show you. While the work I've done professional is meant usually kept private, these projects are either personal or completed as school assignments.</p>
+            <div class="col-sm-9">
                 <dl class="center">
-                    <dt>Statistics Analyzer (Group Effort)</dt>
-                    <dd>
-                        <p class=plist>Tool that allows user to import data via CSV file or manual entry and calcualte advanced statistic on the data sets.
-                        User can also generate relvant graphs and figures relvant to imported data set.
-                        User may also save report in the form of a text file and calculated statistics in the form of a CSV file.
-                        Written in Python 3 using matplotlib, pandas, and pyqt5. 
-                        </p>
-                        <a class="plist" href="https://github.com/bbrakefield/statistics-analyzer">GitHub</a>
-                    </dd>
-                    <dt>Slide Grabber</dt>
-                    <dd>
-                        <p>Program used to scrape the daily lecture slides hosted on a former professor's website.
-                            Script was set to run every Monday and Wednesday at the beginning of class time during the Spring 2017 semester.
-                        Scheduling of execution was done using Cron on a linux machine. Written in Python 3 using BeautifulSoup library.</p>
-                        <a class="plist" href="https://gitlab.com/bbrakefield/slide-scraper">GitLab</a>
-                    </dd>
-                    <dt>Gifinity (Group Effort)</dt>
-                    <dd>
-                        <p>
-                            Program used to animate frames taken from a AVI formatted video into a GIF image. Written in Java using OpenCV library.
-                        </p>
-                        <a class="plist" href="https://gitlab.com/johndowney/gifinity">GitLab</a>
-                    </dd>
-                </dl>
+                        <dt>Statistics Analyzer (Group Effort)</dt>
+                        <dd>
+                            <p>Tool that allows user to import data via CSV file or manual entry and calcualte advanced statistic on the data sets.
+                            User can also generate relvant graphs and figures relvant to imported data set.
+                            User may also save report in the form of a text file and calculated statistics in the form of a CSV file.
+                            Written in Python 3 using matplotlib, pandas, and pyqt5. 
+                            </p>
+                            <a href="https://github.com/bbrakefield/statistics-analyzer">GitHub</a>
+                        </dd>
+                    </br>
+                        <dt>Slide Grabber</dt>
+                        <dd>
+                            <p>Program used to scrape the daily lecture slides hosted on a former professor's website.
+                                Script was set to run every Monday and Wednesday at the beginning of class time during the Spring 2017 semester.
+                            Scheduling of execution was done using Cron on a linux machine. Written in Python 3 using BeautifulSoup library.</p>
+                            <a href="https://gitlab.com/bbrakefield/slide-scraper">GitLab</a>
+                        </dd>
+                    </br>
+                        <dt>Gifinity (Group Effort)</dt>
+                        <dd>
+                            <p>
+                                Program used to animate frames taken from a AVI formatted video into a GIF image. Written in Java using OpenCV library.
+                            </p>
+                            <a href="https://gitlab.com/johndowney/gifinity">GitLab</a>
+                        </dd>
+                    </dl>
+                </div>
             </div>
-        </body>
-    </html>
+        </div>
+    
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <a href="./resume.pdf" download="Brannon_Brakefield_Resume">Download My Resume</a>
+        </div>
+    </body>
+</html>
