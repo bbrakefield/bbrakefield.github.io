@@ -13,3 +13,8 @@ h1, h2, h3, h5 {
 p, a{
     font-family: 'Oxygen', sans-serif;    
 }
+
+.container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+}
