@@ -1,7 +1,8 @@
 #first-p {
     padding-top: 8px;
 }
-.img {
+
+img {
     max-width: 100%;
     height: auto;
 }
@@ -18,7 +19,6 @@ p, a{
     font-family: 'Oxygen', sans-serif;    
 }
 
-.container-fluid {
+.footer {
       padding-top: 25px;
-      padding-bottom: 25px;
 }
