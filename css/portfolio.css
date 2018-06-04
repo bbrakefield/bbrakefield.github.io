@@ -1,6 +1,10 @@
 #first-p {
     padding-top: 8px;
 }
+.img {
+    max-width: 100%;
+    height: auto;
+}
 
 .jumbotron {
     background: url("crossword.png") repeat 0 0;
